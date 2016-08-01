@@ -31,20 +31,23 @@ section h2 {
     right: 0;
     top: 0;
     border: 1px solid black;
-    padding: 3px 20px;
+    padding: 3px 0;
+    width: 150px;
+    text-align: center;
     font-size: 1.25em;
 }
 
 section:nth-child(1) h2 {
-    background-color: tomato;
+    background-color: #D59898;
 }
 
 section:nth-child(2) h2 {
-    background-color: goldenrod;
+    background-color: #C14543;
+    color: white;
 }
 
 section:nth-child(3) h2 {
-    background-color: aqua;
+    background-color: #E3CF97;
 }
 
 
