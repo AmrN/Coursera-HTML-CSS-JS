@@ -1,0 +1,73 @@
+/* Base Styles / Mobile */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    width: 200px;
+    margin: 15px auto 30px auto;
+    font-size: 1.75em;
+}
+
+section {
+    padding: 15px;
+}
+
+.section-inner {
+    background-color: #b2b2b2;
+    position: relative;
+    border: 1px solid black;
+}
+
+section h2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid black;
+    padding: 3px 20px;
+    font-size: 1.25em;
+}
+
+section:nth-child(1) h2 {
+    background-color: tomato;
+}
+
+section:nth-child(2) h2 {
+    background-color: goldenrod;
+}
+
+section:nth-child(3) h2 {
+    background-color: aqua;
+}
+
+
+.section-inner p {
+    padding: 50px 17px 17px 17px;
+}
+
+
+/* Desktop */
+@media (min-width: 992px) {
+    section {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        width: 50%;
+        float: left;
+    }
+    section:last-child {
+        width: 100%;
+    }
+}
